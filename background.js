@@ -24,7 +24,7 @@ chrome.action.onClicked.addListener((tab) => {
 	var fname = ""
 	if (!paused){
 		fname = "static/icon-32.png"
-	sendTabs()
+		sendTabs()
 	} else {
 		fname = "static/icon-paused-32.png"
 	}
